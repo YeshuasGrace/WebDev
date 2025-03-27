@@ -1,0 +1,54 @@
+.error-border {
+    border: 1px solid red !important;
+}
+
+form {
+    max-width: 560px;
+    margin: 0 auto;
+    padding: 1.4rem;
+}
+
+.form-check a {
+    text-decoration: underline;
+}
+
+input {
+    border-radius: 5px !important;
+}
+
+input:focus {
+    border: 1px solid #36a0e2e7 !important;
+    -webkit-box-shadow: 0px 0px 10px 3px #004aad6e;
+    -moz-box-shadow: 0px 0px 10px 3px #004aad6e;
+    box-shadow: 0px 0px 5px 2px #004bad36 !important;
+}
+
+.input-group-text > button {
+    border: none;
+    background-color: transparent;
+}
+
+.password-group .input-group-text, .password-group .input-group-text {
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}
+
+#password, #confirm-password {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+#submit-button {
+    color: var(--ygf);
+    background-color: transparent;
+    border: 3px solid var(--ygf);
+    padding: .5rem .8rem;
+    transition: 160ms;
+    align-self: center;
+    text-align: center;
+}
+
+#submit-button:hover {
+    color: var(--white);
+    background-color: var(--ygf);
+}

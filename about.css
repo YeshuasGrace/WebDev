@@ -29,9 +29,61 @@
     font-family: var(--header-font);
     color: var(--text-dark);
     text-align: center;
+    background-color:gainsboro;
+    
+}
+.About{
+    font-size: 20px;
+    margin-bottom: 50px;
+    border-radius: 3px;
+    background-color:white;
+    display: inline-block;
+    
+}  
+.Team{
+    text-align: center;
+    margin-bottom: 30px;
+    color: brown;
+} 
+.Member-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+.Member-card img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid brown;
+}
+@media (max-width: 1024px) {
+    .Member-card{
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+}
+@media (max-width: 600px) {
+    .Member-card{
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+.Member-card .Name{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.Member-card .Title{
+    font-size: 14px;
+    color: #a3a3a3;
 }
 .sectiondescription{
-    color: var(--text-light);
+   color: var(--text-light);
     line-height: 1.75rem;
     text-align: center;
 }
